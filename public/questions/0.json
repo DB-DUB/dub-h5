@@ -1,0 +1,563 @@
+{
+  "en": [
+    {
+      "question": "What is your zodiac sign?",
+      "type": "select",
+      "answers": [
+        "Aquarius",
+        "Pisces",
+        "Aries",
+        "Taurus",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpio",
+        "Sagittarius",
+        "Capricornus"
+      ]
+    },
+    {
+      "question": "What is your gender?",
+      "type": "radio",
+      "answers": [
+        "Male",
+        "Female"
+      ]
+    },
+    {
+      "question": "What's your favorite food?",
+      "type": "input"
+    },
+    {
+      "question": "What languages do you like?",
+      "type": "checkbox",
+      "answers": [
+        "Chinese",
+        "English",
+        "Tibetan",
+        "Spanish",
+        "French",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    {
+      "question": "How old are you?",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "zh": [
+    {
+      "question": "你的星座是什么？",
+      "type": "select",
+      "answers": [
+        "水瓶座",
+        "双鱼座",
+        "白羊座",
+        "金牛座",
+        "双子座",
+        "巨蟹座",
+        "狮子座",
+        "处女座",
+        "天秤座",
+        "天蝎座",
+        "射手座",
+        "摩羯座"
+      ]
+    },
+    {
+      "question": "你的性别是？",
+      "type": "radio",
+      "answers": [
+        "男",
+        "女"
+      ]
+    },
+    {
+      "question": "你最喜欢的食物是什么？",
+      "type": "input"
+    },
+    {
+      "question": "你喜欢哪些语言？",
+      "type": "checkbox",
+      "answers": [
+        "汉语",
+        "英语",
+        "藏语",
+        "西班牙语",
+        "法语",
+        "俄语",
+        "阿拉伯语"
+      ]
+    },
+    {
+      "question": "你今年几岁？",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "zh-CN": [
+    {
+      "question": "你的星座是什么？",
+      "type": "select",
+      "answers": [
+        "水瓶座",
+        "双鱼座",
+        "白羊座",
+        "金牛座",
+        "双子座",
+        "巨蟹座",
+        "狮子座",
+        "处女座",
+        "天秤座",
+        "天蝎座",
+        "射手座",
+        "摩羯座"
+      ]
+    },
+    {
+      "question": "你的性别是？",
+      "type": "radio",
+      "answers": [
+        "男",
+        "女"
+      ]
+    },
+    {
+      "question": "你最喜欢的食物是什么？",
+      "type": "input"
+    },
+    {
+      "question": "你喜欢哪些语言？",
+      "type": "checkbox",
+      "answers": [
+        "汉语",
+        "英语",
+        "藏语",
+        "西班牙语",
+        "法语",
+        "俄语",
+        "阿拉伯语"
+      ]
+    },
+    {
+      "question": "你今年几岁？",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "zh-HK": [
+    {
+      "question": "你的星座是什麼？",
+      "type": "select",
+      "answers": [
+        "水瓶座",
+        "雙魚座",
+        "牡羊座",
+        "金牛座",
+        "雙子座",
+        "巨蟹座",
+        "獅子座",
+        "處女座",
+        "天秤座",
+        "天蠍座",
+        "射手座",
+        "摩羯座"
+      ]
+    },
+    {
+      "question": "你的性别是？",
+      "type": "radio",
+      "answers": [
+        "男",
+        "女"
+      ]
+    },
+    {
+      "question": "你最喜歡的食物是什麼？",
+      "type": "input"
+    },
+    {
+      "question": "你喜歡哪些語言？",
+      "type": "checkbox",
+      "answers": [
+        "漢語",
+        "英語",
+        "藏語",
+        "西班牙語",
+        "法語",
+        "俄文",
+        "阿拉伯語"
+      ]
+    },
+    {
+      "question": "你今年幾歲？",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "zh-TW": [
+    {
+      "question": "你的星座是什麼？",
+      "type": "select",
+      "answers": [
+        "水瓶座",
+        "雙魚座",
+        "牡羊座",
+        "金牛座",
+        "雙子座",
+        "巨蟹座",
+        "獅子座",
+        "處女座",
+        "天秤座",
+        "天蠍座",
+        "射手座",
+        "摩羯座"
+      ]
+    },
+    {
+      "question": "你的性别是？",
+      "type": "radio",
+      "answers": [
+        "男",
+        "女"
+      ]
+    },
+    {
+      "question": "你最喜歡的食物是什麼？",
+      "type": "input"
+    },
+    {
+      "question": "你喜歡哪些語言？",
+      "type": "checkbox",
+      "answers": [
+        "漢語",
+        "英語",
+        "藏語",
+        "西班牙語",
+        "法語",
+        "俄文",
+        "阿拉伯語"
+      ]
+    },
+    {
+      "question": "你今年幾歲？",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "ja": [
+    {
+      "question": "あなたの星座は何ですか？",
+      "type": "select",
+      "answers": [
+        "アクエリアス",
+        "魚座",
+        "牡羊座",
+        "おうし座",
+        "ジェミニ",
+        "癌",
+        "レオ",
+        "乙女座",
+        "天秤座",
+        "蠍座",
+        "射手座",
+        "山羊座"
+      ]
+    },
+    {
+      "question": "あなたの性別は何ですか？",
+      "type": "radio",
+      "answers": [
+        "男",
+        "女性"
+      ]
+    },
+    {
+      "question": "あなたの好きな食べ物は何ですか？",
+      "type": "input"
+    },
+    {
+      "question": "何の言語が好きですか?",
+      "type": "checkbox",
+      "answers": [
+        "中国人",
+        "英語",
+        "チベット語",
+        "スペイン語",
+        "フランス語",
+        "ロシア",
+        "アラビア語"
+      ]
+    },
+    {
+      "question": "何歳ですか？",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "es": [
+    {
+      "question": "¿Cual es tu signo del zodiaco?",
+      "type": "select",
+      "answers": [
+        "Acuario",
+        "Piscis",
+        "Aries",
+        "Tauro",
+        "Geminis",
+        "Cáncer",
+        "León",
+        "Virgo",
+        "Libra",
+        "Escorpión",
+        "Sagitario",
+        "Capricornio"
+      ]
+    },
+    {
+      "question": "¿Cuál es su género?",
+      "type": "radio",
+      "answers": [
+        "masculino",
+        "femenino"
+      ]
+    },
+    {
+      "question": "¿Cuál es tu comida favorita?",
+      "type": "input"
+    },
+    {
+      "question": "¿Cuál es tu comida favorita?",
+      "type": "checkbox",
+      "answers": [
+        "Chino",
+        "Inglés",
+        "idioma tibetano",
+        "Español",
+        "Francés",
+        "Ruso",
+        "Arábica"
+      ]
+    },
+    {
+      "question": "¿Cuántos años tiene?",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "de": [
+    {
+      "question":"Was ist dein Sternzeichen?",
+      "type": "select",
+      "answers": [
+        "Wassermann",
+        "Fische",
+        "Widder",
+        "Stier",
+        "Zwillinge",
+        "Krebs",
+        "Löwe",
+        "Jungfrau",
+        "Waage",
+        "Skorpion",
+        "Schütze",
+        "Steinbock"
+      ]
+    },
+    {
+      "question": "Was ist dein Geschlecht?",
+      "type": "radio",
+      "answers": [
+        "männlich",
+        "weiblich"
+      ]
+    },
+    {
+      "question": "Was ist dein Lieblingsessen?",
+      "type": "input"
+    },
+    {
+      "question": "Welche Sprachen magst du?",
+      "type": "checkbox",
+      "answers": [
+        "Chinesisch",
+        "Englisch",
+        "Tibetische Sprache",
+        "Spanisch",
+        "Französisch",
+        "Russisch",
+        "Arabisch"
+      ]
+    },
+    {
+      "question": "Wie alt bist du?",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "fr": [
+    {
+      "question": "Quel est ton signe du zodiaque ?",
+      "type": "select",
+      "answers": [
+        "Verseau",
+        "Poissons",
+        "Bélier",
+        "Taureau",
+        "Gémeaux",
+        "Cancer",
+        "Leo",
+        "Vierge",
+        "Balance",
+        "Scorpion",
+        "Sagittaire",
+        "Capricorne"
+      ]
+    },
+    {
+      "question": "Quel est ton sexe ?",
+      "type": "radio",
+      "answers": [
+        "mâle",
+        "femelle"
+      ]
+    },
+    {
+      "question": "Quel est ton plat préféré?",
+      "type": "input"
+    },
+    {
+      "question": "Quelles langues aimez-vous ?",
+      "type": "checkbox",
+      "answers": [
+        "Chinois",
+        "Anglais",
+        "Langue tibétaine",
+        "Espagnol",
+        "Français",
+        "Russe",
+        "Arabe"
+      ]
+    },
+    {
+      "question": "Quel âge as-tu?",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "ko": [
+    {
+      "question": "당신의 별자리는 무엇입니까?",
+      "type": "select",
+      "answers": [
+        "물병자리",
+        "물고기",
+        "양자리",
+        "황소 자리",
+        "쌍둥이 자리",
+        "암",
+        "사자 별자리",
+        "처녀 자리",
+        "천칭",
+        "천갈궁",
+        "궁수",
+        "염소자리"
+      ]
+    },
+    {
+      "question": "성별은 무엇입니까?",
+      "type": "radio",
+      "answers": [
+        "남성",
+        "여성"
+      ]
+    },
+    {
+      "question": "가장 좋아하는 음식 무엇?",
+      "type": "input"
+    },
+    {
+      "question": "어떤 언어를 좋아하시나요?",
+      "type": "checkbox",
+      "answers": [
+        "중국인",
+        "영어",
+        "티베트어",
+        "스페인의",
+        "프랑스 국민",
+        "러시아인",
+        "아라비아 말"
+      ]
+    },
+    {
+      "question": "몇 살이에요?",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ],
+  "ar": [
+    {
+      "question": "كم عمرك؟",
+      "type": "select",
+      "answers": [
+        "برج الدلو",
+        "برج الحوت",
+        "بُرْجُ الحَمَل",
+        "الثور",
+        "تَوأَم",
+        "سرطان",
+        "الأسد",
+        "بُرْجُ العَذْراء",
+        "الميزان",
+        "العقرب",
+        "برج القوس",
+        "بُرْجُ الجَدْي"
+      ]
+    },
+    {
+      "question": "ما هو جنسك؟",
+      "type": "radio",
+      "answers": [
+        "ذكر",
+        "أنثى"
+      ]
+    },
+    {
+      "question": "ما هو طعامك المفضل؟",
+      "type": "input"
+    },
+    {
+      "question": "ما هي اللغات التي تحبها؟",
+      "type": "checkbox",
+      "answers": [
+        "صينى",
+        "إنجليزي",
+        "اللغة التبتية",
+        "الأسبانية",
+        "فرنسي",
+        "الروسية",
+        "عربي"
+      ]
+    },
+    {
+      "question": "كم عمرك؟",
+      "type": "range",
+      "min": 16,
+      "max": 60
+    }
+  ]
+}

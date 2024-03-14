@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script src="https://accounts.google.com/gsi/client" defer></script>
+</head>
+
+<body>
+  <div id="app" class="hide">
+    <div class="main" :class="{ 'main-dir-rtl': pageDirRtl }" v-show="questionShow">
+      <img class="bg" src="<%=require('@/imgs/answer/bg.png')%>" />
+      <div class="white">
+        <h1 class="title">{{ titleInfo.title }}</h1>
+        <p class="content">{{ titleInfo.content }}</p>
+        <ul class="list-wrap">
+          <li class="question-wrap" v-for="(group, index) in questions" :key="index">
+            <div class="question">{{ group.question }}</div>
+            <select v-if="group.type === 'select'" class="drop-down" v-model="submitInfo[index]">
+              <option v-for="(item, itemIndex) in group.answers" :key="itemIndex" :value="itemIndex"
+                class="drop-down-option">
+                {{ item }}</option>
+            </select>
+            <select v-if="group.type === 'range'" class="drop-down" v-model="submitInfo[index]">
+              <option v-for="(item, itemIndex) in group.answers" :key="itemIndex" :value="itemIndex"
+                class="drop-down-option">
+                {{ item }}</option>
+            </select>
+            <div v-else-if="group.type === 'input-range'" class="input-wrap">
+              <input type="text" class="input-text" v-model="submitInfo[index]" @input="(e) => onInput(e, index)" @blur="() => onBlur(index)">
+              <div class="border-bottom"></div>
+            </div>
+            <ol v-else-if="group.type === 'radio'" class="radio-wrap">
+              <li v-for="(item, itemIndex) in group.answers" :key="itemIndex" class="radio">
+                <input type="radio" :id="'option_' + index + '_' + itemIndex" :name="'options_' + index"
+                  :value="itemIndex" v-model="submitInfo[index]" />
+                <label :for="'option_' + index + '_' + itemIndex">{{ item }}</label>
+              </li>
+            </ol>
+            <ol v-else-if="group.type === 'checkbox'" class="checkbox-wrap">
+              <li v-for="(item, itemIndex) in group.answers" :key="itemIndex" class="checkbox">
+                <input type="checkbox" :id="'option_' + index + '_' + itemIndex" :name="'options_' + index"
+                  :value="itemIndex" v-model="submitInfo[index]" />
+                <label :for="'option_' + index + '_' + itemIndex">{{ item }}</label>
+              </li>
+            </ol>
+            <div v-else-if="group.type === 'input'" class="input-wrap">
+              <input type="text" class="input-text" v-model="submitInfo[index]">
+              <div class="border-bottom"></div>
+            </div>
+          </li>
+        </ul>
+        <common-btn :custom-class="['submit-btn']" btn-type="primary" btn-text="Finish" @click="onSubmit">
+        </common-btn>
+      </div>
+    </div>
+    <confirm-dialog
+      v-model:visible="confirmDialogParams.visible"
+      :title="confirmDialogParams.title"
+      :content="confirmDialogParams.content"
+      :bg-cancel="true"
+      @cancel="confirmDialogParams.visible = false"
+    >
+      <template #confirm-button>
+        <!-- <common-btn :custom-class="['twitter-btn', 'third-login-btn']" btn-type="primary" @click="gotoTwitter">
+          <template #button>
+            <img class="x-logo" src="<%=require('@/imgs/common/x-logo.png')%>" />
+            X
+          </template>
+        </common-btn> -->
+      </template>
+      <template #cancel-button>
+        <div class="google-btn" id="google-login-box"></div>
+      </template>
+    </confirm-dialog>
+    <div class="alert-wrap" v-show="show">
+      <div class="alert">
+        <div class="friend-info">
+          <div class="avatar-wrap">
+            <img class="avatar" :src="friendInfo.avatar">
+          </div>
+          <p class="nickname">{{ friendInfo.nickname }}</p>
+        </div>
+        <!-- <img src="<%=require('@/imgs/answer/prank-icon.png')%>" class="prank-icon" /> -->
+        <img src="<%=require('@/imgs/answer/close.png')%>" class="close" @click="closeFinish"/>
+        <div class="intro-wrap">
+          <span class="title">You’ve got pranked!</span>
+          <!-- <span>
+            Your answers have been sent to your friend.<br>
+            Wanna prank your friends too?<br>
+            Get your own prank link below.
+          </span> -->
+          <span>
+            Your answers have been sent to your friend <span class="nickname">{{ friendInfo.nickname }}</span>.
+          </span>
+        </div>
+        <div class="btn-wrap" @click="gotoPrank">
+          Get Prank Link
+        </div>
+        <div class="hint">Get your own prank link</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

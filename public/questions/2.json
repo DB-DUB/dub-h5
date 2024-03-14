@@ -1,0 +1,1080 @@
+{
+  "en": [
+    {
+      "question": "What is your horoscope sign?",
+      "type": "select",
+      "answers": [
+        "Aries",
+        "Taurus",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpio",
+        "Sagittarius",
+        "Capricorn",
+        "Aquarius",
+        "Pisces"
+      ]
+    },
+    {
+      "question": "Have you done a MBTI test?",
+      "type": "radio",
+      "answers": [
+        "Yes",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "question": "Are you in control of your emotions",
+      "type": "radio",
+      "answers": [
+        "I can usually control my emotions",
+        "My emotions often control me"
+      ]
+    },
+    {
+      "question": "What's more important to you, money or love?",
+      "type": "radio",
+      "answers": [
+        "Money",
+        "Love"
+      ]
+    },
+    {
+      "question": "Have you ever been cheated on?",
+      "type": "radio",
+      "answers": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "question": "Is sex important to you?",
+      "type": "radio",
+      "answers": [
+        "Yes",
+        "No",
+        "Depends on the other person"
+      ]
+    },
+    {
+      "question": "When's the last time you had sex?",
+      "type": "radio",
+      "answers": [
+        "Today",
+        "This week",
+        "This month",
+        "Within 6 months",
+        "Within 12 months",
+        "Over a year ago"
+      ]
+    },
+    {
+      "question": "How often do you msturbate?",
+      "type": "radio",
+      "answers": [
+        "Everyday",
+        "Couple times a week",
+        "Couple times a month",
+        "Rarely"
+      ]
+    },
+    {
+      "question": "How old were you when you lost your virginity?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "Are you happy?",
+      "type": "radio",
+      "answers": [
+        "Yes",
+        "No"
+      ]
+    }
+  ],
+  "zh": [
+    {
+      "question": "你的星座是什么？",
+      "type": "select",
+      "answers": [
+        "白羊座",
+        "金牛座",
+        "双子座",
+        "巨蟹座",
+        "狮子座",
+        "处女座",
+        "天秤座",
+        "天蝎座",
+        "射手座",
+        "摩羯座",
+        "水瓶座",
+        "双鱼座"
+      ]
+    },
+    {
+      "question": "你做过 MBTI 测试吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "不知道"
+      ]
+    },
+    {
+      "question": "你能控制自己的情绪吗？",
+      "type": "radio",
+      "answers": [
+        "我通常可以控制我的情绪",
+        "我的情绪常常控制我"
+      ]
+    },
+    {
+      "question": "对你来说，金钱和爱哪个更重要？",
+      "type": "radio",
+      "answers": [
+        "金钱",
+        "爱"
+      ]
+    },
+    {
+      "question": "你有没有被背叛过？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    },
+    {
+      "question": "性对你来说重要吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "取决于对方"
+      ]
+    },
+    {
+      "question": "你上次发生性行为是什么时候？",
+      "type": "radio",
+      "answers": [
+        "今天",
+        "本周",
+        "本月",
+        "6 个月内",
+        "12 个月内",
+        "超过一年了"
+      ]
+    },
+    {
+      "question": "你多久手淫一次？",
+      "type": "radio",
+      "answers": [
+        "每天",
+        "一周几次",
+        "一月几次",
+        "很少"
+      ]
+    },
+    {
+      "question": "你什么时候失去童贞的？",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "你幸福吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    }
+  ],
+  "zh-CN": [
+    {
+      "question": "你的星座是什么？",
+      "type": "select",
+      "answers": [
+        "白羊座",
+        "金牛座",
+        "双子座",
+        "巨蟹座",
+        "狮子座",
+        "处女座",
+        "天秤座",
+        "天蝎座",
+        "射手座",
+        "摩羯座",
+        "水瓶座",
+        "双鱼座"
+      ]
+    },
+    {
+      "question": "你做过 MBTI 测试吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "不知道"
+      ]
+    },
+    {
+      "question": "你能控制自己的情绪吗？",
+      "type": "radio",
+      "answers": [
+        "我通常可以控制我的情绪",
+        "我的情绪常常控制我"
+      ]
+    },
+    {
+      "question": "对你来说，金钱和爱哪个更重要？",
+      "type": "radio",
+      "answers": [
+        "金钱",
+        "爱"
+      ]
+    },
+    {
+      "question": "你有没有被背叛过？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    },
+    {
+      "question": "性对你来说重要吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "取决于对方"
+      ]
+    },
+    {
+      "question": "你上次发生性行为是什么时候？",
+      "type": "radio",
+      "answers": [
+        "今天",
+        "本周",
+        "本月",
+        "6 个月内",
+        "12 个月内",
+        "超过一年了"
+      ]
+    },
+    {
+      "question": "你多久手淫一次？",
+      "type": "radio",
+      "answers": [
+        "每天",
+        "一周几次",
+        "一月几次",
+        "很少"
+      ]
+    },
+    {
+      "question": "你什么时候失去童贞的？",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "你幸福吗？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    }
+  ],
+  "zh-HK": [
+    {
+      "question": "你的星座是什麼？",
+      "type": "select",
+      "answers": [
+        "白羊座",
+        "金牛座",
+        "雙子座",
+        "巨蟹座",
+        "獅子座",
+        "處女座",
+        "天秤座",
+        "天蠍座",
+        "射手座",
+        "摩羯座",
+        "水瓶座",
+        "雙魚座"
+      ]
+    },
+    {
+      "question": "你做過 MBTI 測試嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "不知道"
+      ]
+    },
+    {
+      "question": "你能控制自己的情緒嗎？",
+      "type": "radio",
+      "answers": [
+        "我通常可以控制我的情緒",
+        "我的情緒常常控制我"
+      ]
+    },
+    {
+      "question": "對你來說，金錢和愛哪個更重要？",
+      "type": "radio",
+      "answers": [
+        "金錢",
+        "愛"
+      ]
+    },
+    {
+      "question": "你有沒有被背叛過？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    },
+    {
+      "question": "性對你來說重要嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "取決於對方"
+      ]
+    },
+    {
+      "question": "你上次發生性行為是什麼時候？",
+      "type": "radio",
+      "answers": [
+        "今天",
+        "本週",
+        "本月",
+        "6 個月內",
+        "12 個月內",
+        "超过一年了"
+      ]
+    },
+    {
+      "question": "你多久手淫一次？",
+      "type": "radio",
+      "answers": [
+        "每天",
+        "一周幾次",
+        "一月幾次",
+        "很少"
+      ]
+    },
+    {
+      "question": "你什麼時候失去童貞的？",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "你幸福嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    }
+  ],
+  "zh-TW": [
+    {
+      "question": "你的星座是什麼？",
+      "type": "select",
+      "answers": [
+        "白羊座",
+        "金牛座",
+        "雙子座",
+        "巨蟹座",
+        "獅子座",
+        "處女座",
+        "天秤座",
+        "天蠍座",
+        "射手座",
+        "摩羯座",
+        "水瓶座",
+        "雙魚座"
+      ]
+    },
+    {
+      "question": "你做過 MBTI 測試嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "不知道"
+      ]
+    },
+    {
+      "question": "你能控制自己的情緒嗎？",
+      "type": "radio",
+      "answers": [
+        "我通常可以控制我的情緒",
+        "我的情緒常常控制我"
+      ]
+    },
+    {
+      "question": "對你來說，金錢和愛哪個更重要？",
+      "type": "radio",
+      "answers": [
+        "金錢",
+        "愛"
+      ]
+    },
+    {
+      "question": "你有沒有被背叛過？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    },
+    {
+      "question": "性對你來說重要嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否",
+        "取決於對方"
+      ]
+    },
+    {
+      "question": "你上次發生性行為是什麼時候？",
+      "type": "radio",
+      "answers": [
+        "今天",
+        "本週",
+        "本月",
+        "6 個月內",
+        "12 個月內",
+        "超过一年了"
+      ]
+    },
+    {
+      "question": "你多久手淫一次？",
+      "type": "radio",
+      "answers": [
+        "每天",
+        "一周幾次",
+        "一月幾次",
+        "很少"
+      ]
+    },
+    {
+      "question": "你什麼時候失去童貞的？",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "你幸福嗎？",
+      "type": "radio",
+      "answers": [
+        "是",
+        "否"
+      ]
+    }
+  ],
+  "ja": [
+    {
+      "question": "あなたの星座は何ですか？",
+      "type": "select",
+      "answers": [
+        "白羊座",
+        "牡牛座",
+        "双子座",
+        "蟹座",
+        "獅子座",
+        "乙女座",
+        "天秤座",
+        "蠍座",
+        "射手座",
+        "山羊座",
+        "水瓶座",
+        "魚座"
+      ]
+    },
+    {
+      "question": "MBTIテストを受けたことがありますか？",
+      "type": "radio",
+      "answers": [
+        "はい",
+        "いいえ",
+        "わからない"
+      ]
+    },
+    {
+      "question": "自分の感情をコントロールできますか？",
+      "type": "radio",
+      "answers": [
+        "私は通常、自分の感情をコントロールできます",
+        "私の感情はよくコントロールされます"
+      ]
+    },
+    {
+      "question": "あなたにとって、お金と愛のどちらが重要ですか？",
+      "type": "radio",
+      "answers": [
+        "お金",
+        "愛"
+      ]
+    },
+    {
+      "question": "裏切られたことがありますか？",
+      "type": "radio",
+      "answers": [
+        "はい",
+        "いいえ"
+      ]
+    },
+    {
+      "question": "性はあなたにとって重要ですか？",
+      "type": "radio",
+      "answers": [
+        "はい",
+        "いいえ",
+        "相手次第です"
+      ]
+    },
+    {
+      "question": "最後に性行為をしたのはいつですか？",
+      "type": "radio",
+      "answers": [
+        "今日",
+        "今週",
+        "今月",
+        "6か月以内",
+        "12か月以内",
+        "1年以上前"
+      ]
+    },
+    {
+      "question": "どのくらい頻繁にオナニーしますか？",
+      "type": "radio",
+      "answers": [
+        "毎日",
+        "週に何回か",
+        "月に何回か",
+        "めったにしません"
+      ]
+    },
+    {
+      "question": "童貞を失ったのはいつですか？",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "幸せですか？",
+      "type": "radio",
+      "answers": [
+        "はい",
+        "いいえ"
+      ]
+    }
+  ],
+  "es": [
+    {
+      "question": "¿Cuál es tu signo del zodíaco?",
+      "type": "select",
+      "answers": [
+        "Aries",
+        "Tauro",
+        "Géminis",
+        "Cáncer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Escorpio",
+        "Sagitario",
+        "Capricornio",
+        "Acuario",
+        "Piscis"
+      ]
+    },
+    {
+      "question": "¿Has realizado una prueba MBTI?",
+      "type": "radio",
+      "answers": [
+        "Sí",
+        "No",
+        "No lo sé"
+      ]
+    },
+    {
+      "question": "¿Controlas tus emociones?",
+      "type": "radio",
+      "answers": [
+        "Por lo general, puedo controlar mis emociones",
+        "Mis emociones a menudo me controlan"
+      ]
+    },
+    {
+      "question": "¿Qué es más importante para ti, el dinero o el amor?",
+      "type": "radio",
+      "answers": [
+        "Dinero",
+        "Amor"
+      ]
+    },
+    {
+      "question": "¿Alguna vez te han engañado?",
+      "type": "radio",
+      "answers": [
+        "Sí",
+        "No"
+      ]
+    },
+    {
+      "question": "¿El sexo es importante para ti?",
+      "type": "radio",
+      "answers": [
+        "Sí",
+        "No",
+        "Depende de la otra persona"
+      ]
+    },
+    {
+      "question": "¿Cuándo fue la última vez que tuviste relaciones sexuales?",
+      "type": "radio",
+      "answers": [
+        "Hoy",
+        "Esta semana",
+        "Este mes",
+        "En los últimos 6 meses",
+        "En los últimos 12 meses",
+        "Hace más de un año"
+      ]
+    },
+    {
+      "question": "¿Con qué frecuencia te masturbas?",
+      "type": "radio",
+      "answers": [
+        "Todos los días",
+        "Un par de veces por semana",
+        "Un par de veces al mes",
+        "Raramente"
+      ]
+    },
+    {
+      "question": "¿A qué edad perdiste tu virginidad?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "¿Eres feliz?",
+      "type": "radio",
+      "answers": [
+        "Sí",
+        "No"
+      ]
+    }
+  ],
+  "de": [
+    {
+      "question": "Was ist Ihr Sternzeichen?",
+      "type": "select",
+      "answers": [
+        "Widder",
+        "Stier",
+        "Zwillinge",
+        "Krebs",
+        "Löwe",
+        "Jungfrau",
+        "Waage",
+        "Skorpion",
+        "Schütze",
+        "Steinbock",
+        "Wassermann",
+        "Fische"
+      ]
+    },
+    {
+      "question": "Haben Sie einen MBTI-Test gemacht?",
+      "type": "radio",
+      "answers": [
+        "Ja",
+        "Nein",
+        "Weiß nicht"
+      ]
+    },
+    {
+      "question": "Haben Sie Kontrolle über Ihre Emotionen?",
+      "type": "radio",
+      "answers": [
+        "Normalerweise kann ich meine Emotionen kontrollieren",
+        "Meine Emotionen kontrollieren mich oft"
+      ]
+    },
+    {
+      "question": "Was ist Ihnen wichtiger, Geld oder Liebe?",
+      "type": "radio",
+      "answers": [
+        "Geld",
+        "Liebe"
+      ]
+    },
+    {
+      "question": "Wurden Sie jemals betrogen?",
+      "type": "radio",
+      "answers": [
+        "Ja",
+        "Nein"
+      ]
+    },
+    {
+      "question": "Ist Sex für Sie wichtig?",
+      "type": "radio",
+      "answers": [
+        "Ja",
+        "Nein",
+        "Hängt von der anderen Person ab"
+      ]
+    },
+    {
+      "question": "Wann hatten Sie zuletzt Sex?",
+      "type": "radio",
+      "answers": [
+        "Heute",
+        "Diese Woche",
+        "Diesen Monat",
+        "Innerhalb von 6 Monaten",
+        "Innerhalb von 12 Monaten",
+        "Vor mehr als einem Jahr"
+      ]
+    },
+    {
+      "question": "Wie oft masturbieren Sie?",
+      "type": "radio",
+      "answers": [
+        "Jeden Tag",
+        "Ein paar Mal pro Woche",
+        "Ein paar Mal pro Monat",
+        "Selten"
+      ]
+    },
+    {
+      "question": "Wie alt waren Sie, als Sie Ihre Jungfräulichkeit verloren haben?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "Sind Sie glücklich?",
+      "type": "radio",
+      "answers": [
+        "Ja",
+        "Nein"
+      ]
+    }
+  ],
+  "fr": [
+    {
+      "question": "Quel est votre signe astrologique ?",
+      "type": "select",
+      "answers": [
+        "Bélier",
+        "Taureau",
+        "Gémeaux",
+        "Cancer",
+        "Lion",
+        "Vierge",
+        "Balance",
+        "Scorpion",
+        "Sagittaire",
+        "Capricorne",
+        "Verseau",
+        "Poissons"
+      ]
+    },
+    {
+      "question": "Avez-vous passé un test MBTI ?",
+      "type": "radio",
+      "answers": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+      ]
+    },
+    {
+      "question": "Êtes-vous maître de vos émotions ?",
+      "type": "radio",
+      "answers": [
+        "Je peux généralement contrôler mes émotions",
+        "Mes émotions me contrôlent souvent"
+      ]
+    },
+    {
+      "question": "Qu'est-ce qui est le plus important pour vous, l'argent ou l'amour ?",
+      "type": "radio",
+      "answers": [
+        "Argent",
+        "Amour"
+      ]
+    },
+    {
+      "question": "Avez-vous déjà été trompé(e) ?",
+      "type": "radio",
+      "answers": [
+        "Oui",
+        "Non"
+      ]
+    },
+    {
+      "question": "Le sexe est-il important pour vous ?",
+      "type": "radio",
+      "answers": [
+        "Oui",
+        "Non",
+        "Cela dépend de l'autre personne"
+      ]
+    },
+    {
+      "question": "Quand avez-vous eu des rapports sexuels pour la dernière fois ?",
+      "type": "radio",
+      "answers": [
+        "Aujourd'hui",
+        "Cette semaine",
+        "Ce mois-ci",
+        "Il y a moins de 6 mois",
+        "Il y a moins de 12 mois",
+        "Il y a plus d'un an"
+      ]
+    },
+    {
+      "question": "À quelle fréquence vous masturbez-vous ?",
+      "type": "radio",
+      "answers": [
+        "Tous les jours",
+        "Quelques fois par semaine",
+        "Quelques fois par mois",
+        "Rarement"
+      ]
+    },
+    {
+      "question": "À quel âge avez-vous perdu votre virginité ?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "Êtes-vous heureux(se) ?",
+      "type": "radio",
+      "answers": [
+        "Oui",
+        "Non"
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "question": "Какой у вас знак зодиака?",
+      "type": "select",
+      "answers": [
+        "Овен",
+        "Телец",
+        "Близнецы",
+        "Рак",
+        "Лев",
+        "Дева",
+        "Весы",
+        "Скорпион",
+        "Стрелец",
+        "Козерог",
+        "Водолей",
+        "Рыбы"
+      ]
+    },
+    {
+      "question": "Вы проходили тест MBTI?",
+      "type": "radio",
+      "answers": [
+        "Да",
+        "Нет",
+        "Не знаю"
+      ]
+    },
+    {
+      "question": "У вас есть контроль над своими эмоциями?",
+      "type": "radio",
+      "answers": [
+        "Обычно я могу контролировать свои эмоции",
+        "Мои эмоции часто контролируют меня"
+      ]
+    },
+    {
+      "question": "Что для вас важнее, деньги или любовь?",
+      "type": "radio",
+      "answers": [
+        "Деньги",
+        "Любовь"
+      ]
+    },
+    {
+      "question": "Вас когда-либо обманывали?",
+      "type": "radio",
+      "answers": [
+        "Да",
+        "Нет"
+      ]
+    },
+    {
+      "question": "Для вас важен секс?",
+      "type": "radio",
+      "answers": [
+        "Да",
+        "Нет",
+        "Зависит от другого человека"
+      ]
+    },
+    {
+      "question": "Когда вы в последний раз занимались сексом?",
+      "type": "radio",
+      "answers": [
+        "Сегодня",
+        "На этой неделе",
+        "В этом месяце",
+        "В течение последних 6 месяцев",
+        "В течение последних 12 месяцев",
+        "Больше года назад"
+      ]
+    },
+    {
+      "question": "Как часто вы мастурбируете?",
+      "type": "radio",
+      "answers": [
+        "Каждый день",
+        "Несколько раз в неделю",
+        "Несколько раз в месяц",
+        "Редко"
+      ]
+    },
+    {
+      "question": "Сколько вам было лет, когда вы потеряли девственность?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "Вы счастливы?",
+      "type": "radio",
+      "answers": [
+        "Да",
+        "Нет"
+      ]
+    }
+  ],
+  "ko": [
+    {
+      "question": "당신의 별자리는 무엇입니까?",
+      "type": "select",
+      "answers": [
+        "양자리",
+        "황소자리",
+        "쌍둥이자리",
+        "게자리",
+        "사자자리",
+        "처녀자리",
+        "천칭자리",
+        "전갈자리",
+        "궁수자리",
+        "염소자리",
+        "물병자리",
+        "물고기자리"
+      ]
+    },
+    {
+      "question": "MBTI 테스트를 하신 적이 있습니까?",
+      "type": "radio",
+      "answers": [
+        "예",
+        "아니요",
+        "모르겠습니다"
+      ]
+    },
+    {
+      "question": "당신은 감정을 컨트롤할 수 있습니까?",
+      "type": "radio",
+      "answers": [
+        "보통 내 감정을 컨트롤할 수 있습니다",
+        "내 감정이 종종 나를 컨트롤합니다"
+      ]
+    },
+    {
+      "question": "당신에게 더 중요한 것은 돈인가 사랑인가요?",
+      "type": "radio",
+      "answers": [
+        "돈",
+        "사랑"
+      ]
+    },
+    {
+      "question": "당신은 이미 속았던 적이 있습니까?",
+      "type": "radio",
+      "answers": [
+        "예",
+        "아니요"
+      ]
+    },
+    {
+      "question": "성은 당신에게 중요한가요?",
+      "type": "radio",
+      "answers": [
+        "예",
+        "아니요",
+        "상대방에 달려 있습니다"
+      ]
+    },
+    {
+      "question": "당신이 마지막으로 성관계를 한 때는 언제입니까?",
+      "type": "radio",
+      "answers": [
+        "오늘",
+        "이번 주",
+        "이번 달",
+        "6개월 이내",
+        "12개월 이내",
+        "1년 이상 전"
+      ]
+    },
+    {
+      "question": "자위는 얼마나 자주 하십니까?",
+      "type": "radio",
+      "answers": [
+        "매일",
+        "일주일에 몇 번",
+        "한 달에 몇 번",
+        "거의 안 함"
+      ]
+    },
+    {
+      "question": "첫 경험을 언제 했습니까?",
+      "type": "input-range",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "question": "당신은 행복합니까?",
+      "type": "radio",
+      "answers": [
+        "예",
+        "아니요"
+      ]
+    }
+  ]
+}
